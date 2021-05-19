@@ -22,7 +22,7 @@
 
         border: 2px solid #B0BACA;
         border-radius: 2px;
-        transition-duration: .6s;
+        transition-duration: .2s;
     }
 
     &::after {
@@ -38,7 +38,7 @@
         border-radius: 1px;
         transform: rotate(45deg);
         opacity: 0;
-        transition-duration: .4s;
+        transition-duration: .6s;
     }
 
     &:focus {
@@ -52,7 +52,7 @@
 .input {
     &:focus+.label::before {
         border-color: #3EBF8A;
-        transition-duration: .6s;
+        transition-duration: .4s;
     }
 
     &:checked+.label::before {
