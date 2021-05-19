@@ -11,7 +11,7 @@ import MyInput from 'components/common/form/inputs/text-input/input';
 import MyCheckbox from 'components/common/form/inputs/checkbox/checkbox';
 
 const LoginForm = (props) => {
-    const [submitIsPressed, setSubmitIsPressed] = useState(false);
+    const [submitIsPressed, setSubmitIsPressed] = useState<boolean>(false);
 
     return (
         <>

@@ -1,7 +1,7 @@
 import React from 'react';
 import s from './microsoft.module.scss';
 
-const ButtonProviderMicrosoft = (props) => {
+const ButtonProviderMicrosoft = (props: any) => {
     return (
         <button className={s.button} type="button" onClick={props.onClick}>
             <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">

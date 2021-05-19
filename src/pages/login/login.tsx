@@ -1,9 +1,8 @@
-import React from 'react';
 import LoginForm from './form/form';
 import s from './login.module.scss';
 import ButtonTransparent from 'components/common/form/buttons/transparent/transparent';
 
-const Login = (props) => {
+const Login = () => {
     return (
         <div className={s.main}>
             <div className={s.wrapper}>
