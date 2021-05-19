@@ -2,18 +2,18 @@
 
 //===== GENERAL =====//
 body {
-    font-family: 'Oswald', 'Arial', sans-serif;
-    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
     font-weight: 400;
-    color: #4c4b4b;
+    color: #2B3151;
 
-    background-color: white;
+    background-color: #F6F8FC;
 
     overflow-x: hidden;
 }
 
 a {
-    color: rgb(0, 0, 0);
+    color: #2B3151;
 }
 
 .visually_hidden {
@@ -28,10 +28,5 @@ a {
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
-    overflow: hidden;
-
-}
-
-.lock {
     overflow: hidden;
 }

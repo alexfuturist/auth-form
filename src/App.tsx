@@ -1,9 +1,10 @@
+import Login from 'pages/login/login';
 import './App.scss';
 
 function App() {
   return (
     <div className="App">
-      <b>ABZ</b>
+      <Login />
     </div>
   );
 }

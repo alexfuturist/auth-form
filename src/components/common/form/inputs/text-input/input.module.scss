@@ -1,0 +1,54 @@
+@import "styles/_variables.scss";
+
+.wrapper {
+    position: relative;
+}
+
+.field {
+    width: 100%;
+    height: 40px;
+
+    padding: 0 8px;
+
+    background: #FCFDFF;
+
+    font-size: 16px;
+    border: 1px solid #CDD7E5;
+    border-radius: 4px;
+
+    transition-duration: $item-transition-hover;
+
+    &::placeholder {
+        color: #929BAD;
+    }
+}
+
+.field.touched {
+    background: #FCFDFF;
+    border-color: #B0BACA;
+
+    transition-duration: $item-transition-hover;
+}
+
+.field:focus {
+    background: #F5FAFF;
+    border-color: #61A8EA;
+}
+
+.field.error {
+    background: #FFFBFB;
+    border-color: #E1485B;
+
+    transition-duration: $item-transition-hover;
+}
+
+.assistive_error {
+    position: absolute;
+    right: 0;
+    bottom: -17px;
+
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    color: #E1485B;
+}

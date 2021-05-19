@@ -1,0 +1,28 @@
+@import "styles/_variables.scss";
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 12px 32px;
+    height: 48px;
+    width: 100%;
+
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+
+    background: #3EBF8A;
+    border-radius: 3px;
+
+    transition-duration: $item-transition-hover;
+
+    &:hover,
+    &:focus {
+        background: #008960;
+
+        transition-duration: $item-transition-hover;
+    }
+}
