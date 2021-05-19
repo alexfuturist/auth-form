@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/auth-form/static/css/main.aaa64744.chunk.css",
+    "main.js": "/auth-form/static/js/main.bfefa55e.chunk.js",
+    "main.js.map": "/auth-form/static/js/main.bfefa55e.chunk.js.map",
+    "runtime-main.js": "/auth-form/static/js/runtime-main.7e304a47.js",
+    "runtime-main.js.map": "/auth-form/static/js/runtime-main.7e304a47.js.map",
+    "static/js/2.0c071aa3.chunk.js": "/auth-form/static/js/2.0c071aa3.chunk.js",
+    "static/js/2.0c071aa3.chunk.js.map": "/auth-form/static/js/2.0c071aa3.chunk.js.map",
+    "index.html": "/auth-form/index.html",
+    "static/css/main.aaa64744.chunk.css.map": "/auth-form/static/css/main.aaa64744.chunk.css.map",
+    "static/js/2.0c071aa3.chunk.js.LICENSE.txt": "/auth-form/static/js/2.0c071aa3.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/auth-form/static/media/Inter-Regular.d4f31dac.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7e304a47.js",
+    "static/js/2.0c071aa3.chunk.js",
+    "static/css/main.aaa64744.chunk.css",
+    "static/js/main.bfefa55e.chunk.js"
+  ]
+}
