@@ -1,0 +1,54 @@
+@import 'styles/_variables.scss';
+
+.wrapper {
+  position: relative;
+}
+
+.field {
+  width: 100%;
+  height: 40px;
+
+  padding: 0 8px;
+
+  background: #fcfdff;
+
+  font-size: 16px;
+  border: 1px solid #cdd7e5;
+  border-radius: 4px;
+
+  transition-duration: $item-transition-hover;
+
+  &::placeholder {
+    color: #929bad;
+  }
+}
+
+.field.touched {
+  background: #fcfdff;
+  border-color: #b0baca;
+
+  transition-duration: $item-transition-hover;
+}
+
+.field:focus {
+  background: #f5faff;
+  border-color: #61a8ea;
+}
+
+.field.error {
+  background: #fffbfb;
+  border-color: #e1485b;
+
+  transition-duration: $item-transition-hover;
+}
+
+.assistive_error {
+  position: absolute;
+  right: 0;
+  bottom: -17px;
+
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  color: #e1485b;
+}

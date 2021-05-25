@@ -1,0 +1,26 @@
+@import "styles/_variables.scss";
+
+//Google and Microsoft button
+.button_provider_wrapper:first-child {
+  margin-bottom: 16px;
+}
+
+// --- separator ---
+.separator_wrapper {
+  margin: 12px 0;
+}
+
+//input wrapper (login, password)
+.text_input_wrapper {
+  margin-bottom: 24px;
+}
+
+.button_forgot_password_wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.button_continue_wrapper {
+  margin-top: 24px;
+}
